@@ -1,0 +1,158 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Here’s a complete
+ **Product Requirements Document (PRD) for** 
+
+  **AI-Powered Business Learning App**, based on your prompt. It's formatted in **Markdown** so you can easily paste it into your docs or tools like Notion, GitHub, or any markdown editor.
+
+---
+
+# 📄 Product Requirements Document (PRD)
+
+## 📘 Product Name: BizGenius – AI-Powered Business Learning App
+
+---
+
+## 🧭 1. Overview
+
+**Purpose**
+BizGenius is a comprehensive mobile-first business learning application that empowers users with AI-driven tools to learn business skills, generate custom business plans, and interact with a smart business assistant. It targets aspiring entrepreneurs, small business owners, and students.
+
+---
+
+## 🎯 2. Goals and Objectives
+
+* Deliver real-time business advice using an AI-powered chatbot
+* Generate custom, downloadable business plans via OpenAI/Open route
+* Educate users through structured video tutorials and interactive content
+* Track progress, save notes, and improve over time via analytics and AI updates
+
+---
+
+## 👤 3. Target Audience
+
+* Entrepreneurs & startup founders
+* Business students
+* Small business owners
+* Business consultants & educators
+
+---
+
+## 🔑 4. Key Features
+
+### 🧠 AI-Powered Business Assistant
+
+* Integration with **OpenAI API** (GPT-4o or GPT-4.5)
+* Users can ask questions on:
+
+  * Marketing, Finance, Strategy, Operations
+* Features:
+
+  * Real-time intelligent responses
+  * Save chat history & bookmark important answers
+  * Categorized Q\&A view (searchable)
+
+---
+
+### 📄 Business Plan Generator
+
+* AI-generated, editable business plan builder
+* Sections included:
+
+  * Executive Summary
+  * Market Analysis
+  * Financial Projections
+  * Marketing Strategy
+  * Operations Plan
+  * Management Structure
+* Customizable by:
+
+  * Business size (Startup, SME, Corporation)
+  * Industry (Tech, Agriculture, Retail, etc.)
+* Export options:
+
+  * PDF
+  * DOCX (Word)
+  * PPTX (PowerPoint)
+
+---
+
+### 🎓 Learning Hub
+
+* Structured **video learning platform**
+* Features:
+
+  * Categorized tutorials (e.g., Finance, Startup, Marketing, Legal)
+  * Step-by-step business planning guides
+  * Real-world expert interviews
+  * Case studies and real examples
+  * Interactive quizzes per module
+  * Progress tracking dashboard
+  * Bookmarks and note-taking
+  * Offline mode (downloadable content)
+
+---
+
+## 🛠️ 5. Technical Requirements
+
+| Feature             | Description                                                                   |
+| ------------------- | ----------------------------------------------------------------------------- |
+| **Platform**        | Web App (Mobile Responsive) + Mobile App (future phase)                       |
+| **Frontend**        | React , Tailwind CSS                                       |
+| **Backend**         |  Supabase                                              |
+| **Auth**            | Secure User Authentication (OAuth, Email/Password)                            |
+| **Database**        | PostgreSQL (via Supabase )                                         |
+| **AI Integration**  | OpenAI API (GPT-4)  or open router Api                                                           |
+| **Cloud Storage**   | For plans, notes, and video  (Supabase Storage) |
+| **Video Streaming** | HLS Streaming or Vimeo/YouTube private APIs                                   |
+| **Analytics**       | Custom analytics dashboard (learning progress, quiz scores, time spent)       |
+| **Exporting**       | Dynamic PDF/DOCX/PPTX generation (via Puppeteer or docx-pdf libraries)        |
+| **Offline Access**  | LocalStorage + IndexedDB for caching downloaded content                       |
+| **CMS**             | Admin panel for adding/updating learning content                              |
+
+---
+
+## 🧪 6. MVP Scope (Minimum Viable Product)
+
+* AI Chatbot for business Q\&A
+* AI Business Plan Generator with 3 export formats
+* Learning Hub with at least 10 tutorial videos and 2 quizzes
+* User authentication and profile
+* Analytics dashboard (basic progress view)
+* Responsive design (works on mobile & desktop)
+
+---
+
+## 🧱 7. Future Enhancements
+
+* AI voice assistant integration
+* Support for multiple languages
+* Community Q\&A/forum
+* AI-driven course recommendations
+* Certificate generation after completing modules
+
+---
+
+## 📊 8. KPIs & Success Metrics
+
+* User retention rate
+* Business plans created/downloaded
+* Average daily active users (DAU)
+* Learning module completion rate
+* User feedback and chatbot satisfaction
+
+---
+
+## ⏱️ 9. Timeline (Suggested)
+
+| Phase                       | Duration  | Deliverables                                   |
+| --------------------------- | --------- | ---------------------------------------------- |
+| Phase 1 – Research & Design | 2 weeks   | Wireframes, UI/UX design, tech stack finalized |
+| Phase 2 – Core Development  | 4–6 weeks | AI Assistant, Plan Generator, Auth             |
+| Phase 3 – Learning Hub      | 3 weeks   | Video player, quizzes, bookmarking             |
+| Phase 4 – Testing & QA      | 1–2 weeks | Bug fixing, performance testing                |
+| Phase 5 – Launch            | 1 week    | Deploy to Vercel (web) or Expo (mobile)        |
